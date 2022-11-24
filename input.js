@@ -17,7 +17,7 @@ const setupInput = (conn) => {
   const handleUserInput = function (key) {
     // recognizes ctrl c and displayes msg before exiting
     if (key === "\u0003") {
-      console.log("Thanks for using me, ciao!");
+      console.log("mamnoon");
       process.exit();
     }
   
@@ -42,11 +42,11 @@ const setupInput = (conn) => {
     }
   
     if (key === "z") {
-      connection.write("Say: Move out da way!");
+      connection.write("Say: oh Man!!!");
     }
   
     if (key === "x") {
-      connection.write("Say: Collision incoming!");
+      connection.write("Say: watch out!");
     }
 };
 
